@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullStack</title>
+    <link rel="stylesheet" href="./style.css" />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+</head>
+<body style="background-color: #ededed;;">
+    <header class="header">
+        <img src="https://i1.wp.com/fullstackitjm.com/wp-content/uploads/2017/12/cropped-fullstack-logo-full-colour-icon-only.png?fit=512%2C512&ssl=1" alt="">
+        <h1>FullStack</h1>
+    </header>
+    <div id="right">
+    <div class="body">
+    <img class="image" src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3R1ZHlpbmclMjBsYXB0b3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="GLA" width="350px" height="300px" />
+    </div>
+    <h2 class="lorem">A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. FullStack is a private university in Mathura, Uttar Pradesh. It has been declared fit to receive central assistance under Section 12B of UGC Act, 1956 after proper assessment for the same by the UGC. It is recognized by University Grants Commission (UGC),[1] NCTE [2] and Pharmacy Council of India.[3] It has been accredited by the National Assessment and Accreditation Council (NAAC) with ‘A’ Grade.[4]. Uttar Pradesh (/ˌʊtər prəˈdɛʃ/;[11] Hindi: [ˈʊt̪ːəɾ pɾəˈdeːʃ] (About this soundlisten), lit. 'Northern Province') is a state in northern India. With over 200 million inhabitants, it is the most populated state in India as well as the most populous country subdivision in the world.[12] It was created on 1 April 1937 as the United Provinces of Agra and Oudh during British rule, and was renamed Uttar Pradesh in 1950, giving it the acronym UP. The state is divided into 18 divisions and 75 districts, with the state capital being Lucknow, and Allahabad serving as the judicial capital. On 9 November 2000, a new state, Uttaranchal (now Uttarakhand), was carved from the state's Himalayan hill region. The two major rivers of the state, the Ganges and Yamuna, join at Triveni Sangam in Allahabad and flow further east as Ganges. Other prominent rivers are Gomti and Saryu. The forest cover in the state is 6.1% of the state's geographical area. The cultivable area is 82% of total geographical area and net area sown is 68.5% of cultivable area.[citation needed]
+    
+        The state is bordered by Rajasthan to the west, Haryana, Himachal Pradesh and Delhi to the northwest, Uttarakhand and an international border with Nepal to the north, Bihar to the east, Madhya Pradesh to the south, and touches the states of Jharkhand and Chhattisgarh to the southeast. It covers 240,928 km2 (93,023 sq mi), equal to 7.3% of the total area of India, and is the fourth-largest Indian state by area. Though long known for sugar production, the state's economy is now dominated by the services industry. The service sector comprises travel and tourism, hotel industry, real estate, insurance and financial consultancies. The economy of Uttar Pradesh is the second-largest state economy in India with ₹21.73 lakh crore (US$300 billion) in gross domestic product and a per capita GSDP of ₹95,000 (US$1,300).[6] President's rule has been imposed in Uttar Pradesh ten times since 1968, for different reasons and for a total of 1,700 days.[13] The state has currently two international airports, Chaudhary Charan Singh Airport (Lucknow) and Lal Bahadur Shastri Airport (Varanasi). Allahabad Junction is the headquarters of the North Central Railway and Gorakhpur Railway Station serves as the headquarters of the North Eastern Railway. The High Court of the state is located in Allahabad. The state contributes 80 seats and 31 seats to the lower house Lok Sabha and to the upper house Rajya Sabha respectively.</h2>
+    </div>
+        <input type="checkbox" name="" id="chk"/>
+    <label for="chk" class="show-btn">
+        <i class="fa fa-bars"></i>
+    </label>
+    <label for="chk" class="hide-btn">
+        <i class="fa fa-times"></i>
+    </label>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#"><i class="fa fa-home"><span>Home</span></i></a></li>
+            <li><a href="#"><i class="fa fa-user"><span>About</span></i></a></li></li>
+            <li><a href="#"><i class="fa fa-rss"><span>Blog</span></i></a></li>
+            <li><a href="#"><i class="fa fa-id-card"><span>Contacts</span></i></a></li>            <li><a href="#"><i class="fa fa-tasks"><span>Services</span></i></
+        </ul>
+        <div class="social">
+            <a href="#"><i class="fa fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-youtube-square"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+</body>
+</html>
+
+style.css:-
+
+*{
+    margin: 0;
+    padding: 0 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  background-color: rgb(101, 211, 255);
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.header img{
+    width: 5%;
+    height: 5%;
+    align-self: center;
+}
+.header h1{
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+.body{
+    display:flex;
+    justify-content: center;
+}
+.image{
+    border-radius: 10px;
+    margin: 10px;
+    /* width: 30%;
+    height: 30%; */
+    position: relative;
+    top: 110px;
+    /* left: 10%; */
+    /* float: right; */
+}
+.lorem{
+    padding: 20px;
+    text-align: justify;
+    color: #35999b;
+    /* width: 95%; */
+    /* float: right; */
+    /* left: 22%; */
+    top: 430px;
+    position: absolute;
+}
+.sidebar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 108px;
+    background-color:rgb(101, 211, 255);
+    border-radius: 5px;
+    float: left;
+    left: -100%;
+    transition: .7s;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li{
+    border-bottom: 2px solid white;
+}
+.sidebar ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    transition: .4s;
+    justify-content: center;
+}
+.sidebar ul li a span{
+    margin-left: 15px;
+}
+.sidebar ul li a i:hover{
+    color:black;
+}
+.show-btn, .hide-btn{
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    z-index: 2;
+    justify-content: center;
+    line-height: 70px;
+}
+.hide-btn{
+    opacity: 0;
+}
+#chk{
+    opacity: 0;
+}
+#chk:checked ~ .sidebar{
+    left:10px;
+} 
+#chk:checked ~ .show-btn{
+    opacity:0;
+} 
+#chk:checked ~ .hide-btn{
+    transition: .7s;
+    opacity:1;
+} 
+#chk:checked ~ .sidebar{
+    left:10px;
+} 
+#chk:checked ~ .sidebar{
+    left:10px;
+} 
+
+@media(max-width:700px){
+.sidebar{
+        width: 100%;
+        left:-100%;
+        text-align: center;
+ }
+ .header{
+     height: 100px;
+     margin:0;
+     padding: 0;
+ }
+ .header img{
+     height: 100px;
+     width: 200px;
+ }
+.header h1{
+        display: none;
+    }
+#chk:checked ~ .sidebar{
+        left:0%;
+    }
+.image{
+        height: 280px;
+        width: 300px;
+    }
+}
