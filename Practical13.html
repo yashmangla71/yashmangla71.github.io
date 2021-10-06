@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+       
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  text-align: center;
+  width: 700px;
+  border-right: 3px solid #fff;
+}
+
+tr:nth-child(1) th {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+tr:nth-child(2) {
+  height: 90px;
+  font-size: 1.7em;
+  color: blueviolet;
+}
+
+tr:nth-child(2) i {
+  margin-right: 10px;
+}
+
+tr:nth-child(3) {
+  height: 40px;
+}
+
+tr:nth-child(2) th:nth-child(1),
+td:nth-child(1) {
+  background-color: rgba(87, 165, 139, 0.712);
+  height: 35px;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  background-color: rgba(132, 173, 66, 0.623);
+  height: 35px;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  background-color: rgba(100, 243, 33, 0.712);
+  height: 35px;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  background-color: rgba(140, 13, 199, 0.342);
+  height: 35px;
+}
+
+tr:nth-child(3) {
+  font-size: 20px;
+  color: green;
+}
+
+tr:nth-child(2n + 1) td {
+  background-color: rgba(195, 240, 184, 0.637);
+}
+
+tr:last-child {
+  height: 60px;
+}
+
+a {
+  padding: 13px 25px 13px 25px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  cursor: pointer;
+  color: #fff;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: #ff0000;
+}
+        *{
+            margin: auto;
+            font-family: arial;
+            /* background-color: #ededed; */
+        }
+        table{
+            /* border: 2px solid rgb(0, 0, 0); */
+            margin-bottom: 20px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgb(248, 250, 226);
+        }
+        th{
+            padding: 15px;
+            font-size: 30px;
+            color: rgb(140, 13, 199);
+        }
+        td{
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+        button{
+            color: white;
+            background-color: rgb(140, 13, 199);
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: red;
+        }
+        tr:nth-child(even){
+           background-color: rgb(218, 218, 236);
+        }
+       
+
+              </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4" style="text-align: center; font-size: 20px; color: black; font-weight: bold;">Select Your Plan</th>
+        </tr>
+        <tr>
+            <th><i class="fal fa-file-spreadsheet" style="padding-right: 5px;"></i>Basic</th>
+            <th><i class="fas fa-comment-plus" style="padding-right: 5px;"></i>Plus</th>
+            <th><i class="fab fa-telegram" style="padding-right: 5px;"></i>Deluxe</th>
+            <th><i class="fas fa-tachometer-alt-slow" style="padding-right: 5px;"></i>Pro</th>
+        </tr>
+        <tr>
+            <td style="color: rgb(28, 199, 13);">Rs 500/-</td>
+            <td style="color: rgb(28, 199, 13);">Rs 1500/-</td>
+            <td style="color: rgb(28, 199, 13);">Rs 2500/-</td>
+            <td style="color: rgb(28, 199, 13);">Rs 3500/-</td>           
+        </tr>
+        <tr>
+            <td>50 pages</td>
+            <td>75 pages</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+        </tr>
+        <tr>
+            <td>3 users</td>
+            <td>5 users</td>
+            <td>10 users</td>
+            <td>Unlimited</td>
+        </tr>
+        <tr>
+            <td>10 sites</td>
+            <td>25 sites</td>
+            <td>100 sites</td>
+            <td>Unlimited</td>
+        </tr>
+        <tr>
+            <td>50 MB</td>
+            <td>250 MB</td>
+            <td>1 GB</td>
+            <td>5 GB</td>
+        </tr>
+        <tr>
+            <td>included</td>
+            <td>included</td>
+            <td>included</td>
+            <td>included</td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-times" style="color: red;"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-times" style="color: red;"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-times" style="color: red;"></i></td>
+            <td><i class="fas fa-times" style="color: red;"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-times" style="color: red;"></i></td>
+            <td><i class="fas fa-times" style="color: red;"></i></td>
+            <td><i class="fas fa-times" style="color: red;"></i></td>
+            <td><i class="fas fa-check" style="color: rgb(28, 199, 13);"></i></td>
+        </tr>
+        <tr>
+            <td><button>Sign Up</button></td>
+            <td><button>Sign Up</button></td>
+            <td><button>Sign Up</button></td>
+            <td><button>Sign Up</button></td>    
+        </tr>
+    </table>
+</body>
+</html>
